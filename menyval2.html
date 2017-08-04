@@ -1,0 +1,65 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+  <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Hårblogg tips & tricks</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Inspiration</a></li>
+                    <li><a href="menyval2.html">Just nu</a></li>
+                    <li><a href="menyval3.html">Tips & tricks</a></li>
+                </ul>
+            </div>
+        </nav>
+
+<div class="row">
+<div class="col-sm-4">
+<img src="bilder/large.jpg" width="40%">
+<img src="bilder/2014-11-02-0848-em_54568a982a6b2220792e5bf2.jpg" width="40%">
+<br>
+<img src="bilder/braid-hair.jpg" width="40%">
+<img src="bilder/page-hair.jpg" width="40%">
+<img src="bilder/grey-long-ombre.jpg" width="40%">
+
+</div>
+<div class="col-sm-6">
+<br>
+<p>Olika slags flätor är både snyggt, lätt att göra och det går också fort när man vet vad man ska göra. Allt ifrån en vanlig fläta med tre partier till en mer avancerad fläta kan man ha både till vardag och om detär något speciellt.</p>
+<br>
+<p>Att klippa sitt hår kortare eller page är något som också har blivit mer populärt det senaste. Du kanske både kan se det mer och mer bland dina kompisar eller ute på stan men kanske också fler kändisar som klipper sitt hår kortare. </p>
+<br>
+<p>Grått, vitt, rosa, blått eller någon annan färg på håret kan man se mycket bilder på men kanske inget du väljer att göra själv eller så kanske du tycker det är jättesnyggt och då kan du göra det själv om du känner dig bekväm med det.</p>
+<br>
+<img src="bilder/pink-ombre-hair.jpg" width="30%">
+<img src="bilder/5aa5174fbb84feaf5ae06d2ae37126d1--hairstyle-braid-hairstyle-ideas - Copy.jpg" width="30%">
+
+</body>
+</html>

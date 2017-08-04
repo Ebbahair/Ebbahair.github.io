@@ -1,0 +1,53 @@
+h3{
+	color: ;
+	background-color: ;
+}
+p {
+	font-size:  15px;
+}
+.navbar-inverse {
+	background-color: #DDDEDE;
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+}
+.centrering{
+	display:flex;
+	width: 100%;
+	justify-content: center;
+}
+.overskrift{
+	color: black;
+}
+#bild1 {
+	position: absolute;
+	right: 50px;
+	top: 40px;
+}
+#bild2 {
+	position: absolute;
+	right: 50px;
+	top: 300px;
+}
+#startsida{
+	background-image: url("../bilder/pexels-photo.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.whitebox {
+    position: absolute;
+    top: 170px;
+    background: rgba(255,255,255,0.6);
+    margin-left:50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border: 1px solid #e71b2d;
+    font-family: 'Raleway', sans-serif;
+}
